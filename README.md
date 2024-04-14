@@ -1,15 +1,15 @@
-> <b>🚀 Versión actual: 1.5.7</b>
+> <b>🚀 Versión actual: 1.0.0</b>
  
 <p align="center"> 
-<a href="https://github.com/elrebelde21"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=The-LoliBot-MD++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"></a> 
+<a href="https://github.com/MaxViajeYT"><img src="http://readme-typing-svg.herokuapp.com?font=mono&size=17&duration=4000&color=F7B11B&center=falso&vCenter=falso&lines=The-MaxerBot-MD++%F0%9F%90%88;Gracias+por+visitar+este+repositorio.+%F0%9F%92%96" height="90px"></a> 
 </p>
 
 <p align="center">
-<img src="https://telegra.ph/file/9854a169d0eaea13083c7.jpg" alt="LoliBot-MD" width="900"/>
+<img src="https://qu.ax/hcr.jpg" alt="The-MaxerBot-MD" width="900"/>
 </p>
 
 <p align="center">
-<a href="#"><img title="LoliBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
+<a href="#"><img title="The-MaxerBot-MD" src="https://img.shields.io/badge/SI TE AGRADA EL REPOSITORIO APOYAME CON UNA 🌟 ¡GRACIAS! -red?colorA=%255ff0000&colorB=%23017e40&style=for-the-badge"></a> 
 <img src="https://i.pinimg.com/originals/d4/3c/90/d43c902873d4db8c85974dfd0798030b.gif" height="28px">
 </p>  
 
@@ -18,9 +18,9 @@
 <a href="#"><img title="LoliBot-MD" src="https://img.shields.io/badge/COMPATIBLE CON LA VERSIÓN MULTI DISPOSITIVOS DE WHATSAPP-red?colorA=%F77F48FF&colorB=%F77F48FF&style=for-the-badge">
 
 <p align="center">   
-<a href="https://github.com/elrebelde21/LoliBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/elrebelde21/LoliBot-MD?label=Forks&color=blue&style=flat-square"></a>
-<a href="https://github.com/elrebelde21/LoliBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/elrebelde21/LoliBot-MD?label=Watchers&color=green&style=flat-square"></a>
-<a href="https://github.com/elrebelde21/The-LoliBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/elrebelde21/LoliBot-MD?label=Stars&color=yellow&style=flat-square"></a>
+<a href="https://github.com/MaxViajeYT/The-MaxerBot-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/MaxViajeYT/The-MaxerBot-MD?label=Forks&color=blue&style=flat-square"></a>
+<a href="https://github.com/MaxViajeYT/The-MaxerBot-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/MaxViajeYT/The-MaxerBot-MD?label=Watchers&color=green&style=flat-square"></a>
+<a href="https://github.com/MaxViajeYT/The-MaxerBot-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/MaxViajeYT/The-MaxerBot-MDlabel=Stars&color=yellow&style=flat-square"></a>
 </p> 
 
 <div align="center">
@@ -68,12 +68,12 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/elrebelde21/LoliBot-MD/master/install.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/MaxViajeYT/The-MaxerBot-MD/master/install.sh | bash
 ```
 -----
 ### 📁 (OPCIÓN 2) 𝐀𝐂𝐓𝐈𝐕𝐀 𝐄𝐋 𝐓𝐄𝐑𝐌𝐔𝐗 - 𝘼𝙍𝘾𝙃𝙄𝙑𝙊𝙎 
 > **Note** Descargué y Descomprime
-### [`LoliBot-MD ~ Archivos`](https://github.com/elrebelde21/LoliBot-MD/archive/refs/heads/master.zip)
+### [`LoliBot-MD ~ Archivos`](https://github.com/MaxViajeYT/The-MaxerBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/Termux-LoliBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/i1xjB4bmYCc?si=JBYC22-3mBkLpB8c)
 ```bash
@@ -83,7 +83,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-cd storage/downloads/LoliBot-MD-master/LoliBot-MD-master 
+cd storage/downloads/The-MaxerBot-MD-master/The-MaxerBot-MD-master 
 ```
 ```bash
 yarn install
@@ -99,14 +99,14 @@ npm start
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd LoliBot-MD
+> cd The-MaxerBot-MD
 > npm start
 ```
 ### `𝐎𝐁𝐓𝐄𝐍𝐄𝐑 𝐎𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑 
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd LoliBot-MD
+> cd The-MaxerBot-MD
 > rm -rf BotSession
 > npm start
 ```
@@ -134,7 +134,7 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 😼 ACTUALIZAR LOLIBOT
+### 😼 ACTUALIZAR THE-MAXERBOT-MD
 > **Note** Comandos para actualizar LoliBot-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/elrebelde21/LoliBot-MD/master/update.sh | bash 
@@ -245,4 +245,3 @@ Si tiene éxito, le dará un mensaje como: `SUCCESS: specified value was saved`.
 
 ### 🌟 AGRADECIMIENTOS
 [![TheShadowBrokers1](https://github.com/BrunoSobrino.png?size=60)](https://github.com/BrunoSobrino) 
-
