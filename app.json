@@ -1,8 +1,8 @@
 {
-  "name": "The-LoliBot-MD",  
+  "name": "The-MaxerBot-MD",  
   "description": "Super Bot WhatsApp",
-  "repository": "https://github.com/elrebelde21/The-LoliBot-MD",
-  "logo": "https://i.imgur.com/8fK4h6F.jpg",
+  "repository": "https://github.com/MaxerBot/The-MaxerBot-MD",
+  "logo": "https://qu.ax/hcr.jpg",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "buildpacks": [
     {

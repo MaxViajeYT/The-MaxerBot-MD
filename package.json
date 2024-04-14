@@ -1,6 +1,6 @@
 {
 "name": "LoliBot-MD",
-"version": "1.5.7", 
+"version": "1.0.0", 
 "description": "Super Bot WhatsApp",
 "main": "index.js",
 "type": "module",
@@ -17,16 +17,16 @@
 "test": "node test.js",
 "test2": "nodemon index.js" },
     
-"homepage": "https://github.com/elrebelde21/LoliBot-MD",
+"homepage": "https://github.com/MaxViajeYT/The-MaxerBot-MD",
 "author": {
-"name": "elrebelde21" },
+"name": "MaxViajeYT" },
     
 "repository": {
 "type": "git",
-"url": "git+https://github.com/elrebelde21/LoliBot-MD.git" },
+"url": "git+https://github.com/MaxViajeYT/The-MaxerBot-MD.git" },
 
 "bugs": {
-"url": "https://github.com/elrebelde21/LoliBot-MD/issues" },
+"url": "https://github.com/MaxViajeYT/The-MaxerBot-MD/issues" },
 "license": "GPL-3.0-or-later",
 "dependencies": {
 "@whiskeysockets/baileys": "^6.6.0",

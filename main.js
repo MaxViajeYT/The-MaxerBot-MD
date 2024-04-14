@@ -104,7 +104,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `BotSession`
+global.authFile = `The-MaxerThe-MaxerBotSession`
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile)
 const msgRetryCounterMap = (MessageRetryMap) => { }
 const msgRetryCounterCache = new NodeCache()
@@ -219,7 +219,7 @@ conn.well = false
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
 if (global.db.data) await global.db.write()
-if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "jadibts"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '2', '-type', 'f', '-delete'])))}, 30 * 1000)}
+if (opts['autocleartmp'] && (global.support || {}).find) (tmp = [os.tmpdir(), 'tmp', "The-MaxerBotJadiBot"], tmp.forEach(filename => cp.spawn('find', [filename, '-amin', '2', '-type', 'f', '-delete'])))}, 30 * 1000)}
 if (global.obtenerQrWeb === 1) (await import('./server.js')).default(global.conn, PORT)
 
 async function connectionUpdate(update) {  
@@ -242,7 +242,7 @@ if (connection == 'open') {
 console.log(chalk.bold.greenBright(lenguajeGB['smsConexion']()))}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (reason == 405) {
-await fs.unlinkSync("./BotSession/" + "creds.json")
+await fs.unlinkSync("./The-MaxerBotSession/" + "creds.json")
 return console.log(chalk.bold.redBright("\n[ ❌ ] CONEXION REPLAZADA, POR FAVOR ESPERE UN MOMENTO ME VOY A REINICIAR...\nSI SALE ERROR VUELVE A INICIAR CON: npm start")) 
 process.send('reset')}
 if (connection === 'close') {
@@ -407,28 +407,28 @@ unlinkSync(filePath)})
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./BotSession")
+let directorio = readdirSync("./The-MaxerBotSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-')
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./BotSession/${files}`)
+unlinkSync(`./The-MaxerBotSession/${files}`)
 })} 
 
 function purgeSessionSB() {
 try {
-const listaDirectorios = readdirSync('./jadibts/');
+const listaDirectorios = readdirSync('./The-MaxerBotJadiBot/');
 let SBprekey = [];
 listaDirectorios.forEach(directorio => {
-if (statSync(`./jadibts/${directorio}`).isDirectory()) {
-const DSBPreKeys = readdirSync(`./jadibts/${directorio}`).filter(fileInDir => {
+if (statSync(`./The-MaxerBotJadiBot/${directorio}`).isDirectory()) {
+const DSBPreKeys = readdirSync(`./The-MaxerBotJadiBot/${directorio}`).filter(fileInDir => {
 return fileInDir.startsWith('pre-key-')
 })
 SBprekey = [...SBprekey, ...DSBPreKeys];
 DSBPreKeys.forEach(fileInDir => {
 if (fileInDir !== 'creds.json') {
-unlinkSync(`./jadibts/${directorio}/${fileInDir}`)
+unlinkSync(`./The-MaxerBotJadiBot/${directorio}/${fileInDir}`)
 }})}})
 if (SBprekey.length === 0) {
 console.log(chalk.bold.green(lenguajeGB.smspurgeSessionSB1()))
@@ -438,7 +438,7 @@ console.log(chalk.bold.cyanBright(lenguajeGB.smspurgeSessionSB2()))
 console.log(chalk.bold.red(lenguajeGB.smspurgeSessionSB3() + err))}}
 
 function purgeOldFiles() {
-const directories = ['./BotSession/', './jadibts/']
+const directories = ['./The-MaxerBotSession/', './The-MaxerBotJadiBot/']
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
 if (err) throw err

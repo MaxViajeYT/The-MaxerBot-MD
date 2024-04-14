@@ -13,7 +13,7 @@ echo -e "\e[35m
 COMMENT
 
 echo -e "\033[01;93mPreparando instalación...\n\033[0m"
-mp3_array=("https://qu.ax/vkZR.mp3" "https://qu.ax/FYQy.mp3" "https://qu.ax/rSUn.mp3" "https://qu.ax/CCzM.mp3" "https://qu.ax/nuFz.mp3" "https://qu.ax/YKe.mp3")
+mp3_array=("https://qu.ax/yYXk.mp3" "https://qu.ax/QOLL.mp3" "https://qu.ax/meNr.mp3" "https://qu.ax/Tssl.mp3" "https://qu.ax/AJdv.mp3" "https://qu.ax/adlo.mp3" "https://qu.ax/Kpu.mp3")
 random_mp3=${mp3_array[$RANDOM % ${#mp3_array[@]}]}
 echo -e ""
 while true; do
@@ -46,7 +46,7 @@ if pkg install git -y 2>&1 >/dev/null | grep -E -i -q '(command not found|unable
 error=$(pkg install git -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar Git. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mGit se ha instalado correctamente.\n\033[0m" 
@@ -75,7 +75,7 @@ if pkg install nodejs -y 2>&1 >/dev/null | grep -E -i -q '(command not found|una
 error=$(pkg install nodejs -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar Node.js. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mNode.js se ha instalado correctamente.\n\033[0m" 
@@ -104,7 +104,7 @@ if pkg install ffmpeg -y 2>&1 >/dev/null | grep -E -i -q '(command not found|una
 error=$(pkg install ffmpeg -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar FFmpeg. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mFFmpeg se ha instalado correctamente.\n\033[0m" 
@@ -133,7 +133,7 @@ if pkg install imagemagick -y 2>&1 >/dev/null | grep -E -i -q '(command not foun
 error=$(pkg install imagemagick -y 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar ImageMagick. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mImageMagick se ha instalado correctamente\n\033[0m" 
@@ -162,7 +162,7 @@ if npm install -g yarn 2>&1 >/dev/null | grep -E -i -q '(command not found|unabl
 error=$(npm install -g yarn 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar Yarn. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install -y yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nyarn install\nnpm install\nnpm start\033[0m"
 exit 1
 else
 echo -e "" 
@@ -183,14 +183,15 @@ echo -e "\e[35m
 ██╔╝░██╔╝░██╔╝░  ██║██║░╚███║██████╔╝░░░██║░░░██║░░██║███████╗███████╗
 ╚═╝░░╚═╝░░╚═╝░░  ╚═╝╚═╝░░╚══╝╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚══════╝
 
-╔══╗╔╗╔╗╔═╗────╔╗─╔═╗╔╗─╔══╗╔══╗╔═╗╔══╗────╔═╦═╗╔══╗  
-╚╗╔╝║╚╝║║╦╝╔══╗║║─║║║║║─╚║║╝║╔╗║║║║╚╗╔╝╔══╗║║║║║╚╗╗║  
-─║║─║╔╗║║╩╗╚══╝║╚╗║║║║╚╗╔║║╗║╔╗║║║║─║║─╚══╝║║║║║╔╩╝║  
-─╚╝─╚╝╚╝╚═╝────╚═╝╚═╝╚═╝╚══╝╚══╝╚═╝─╚╝─────╚╩═╩╝╚══╝  
-────────────────────────────────────────────────────\n\e[0m"
+██╗░░░███╗░█████╗░███░░███╗███████╗██████╗░  ██████╗░░█████╗░████████╗
+███╗░████║██╔══██╗╚══██╔══╝██╔════╝██╔══██╗  ██╔══██╗██╔══██╗╚══██╔══╝
+█╔████╔██║███████║░░░██║░░░█████╗░░██████╔╝  ██████╦╝██║░░██║░░░██║░░░
+█║╚██╔╝██║██╔══██║░░░██║░░░██╔══╝░░██╔══██╗  ██╔══██╗██║░░██║░░░██║░░░
+█║░╚═╝░██║██║░░██║███══███░███████╗██║░░██║  ██████╦╝╚█████╔╝░░░██║░░░
+═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝░╚══════╝╚═╝░░╚═╝  ╚═════╝░░╚════╝░░░░╚═╝░░░\n\e[0m"
 
 echo -e "\033[1;35m"
-git clone https://github.com/elrebelde21/LoliBot-MD && cd LoliBot-MD
+git clone https://github.com/MaxViajeYT/The-MaxerBot-MD && cd The-MaxerBot-MD
 echo -e "\033[01;32m\033[01mLa clonación se ha descargado e instalado correctamente.\n\033[0m"
 
 echo -e "\033[01;32m\033[01mCambiando al directorio del repositorio!!\n\033[0m" 
@@ -212,7 +213,7 @@ if npm install 2>&1 >/dev/null | grep -E -i -q '(command not found|unable to loc
 error=$(npm install 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar NPM. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\nIf the error continues, install manually!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install yarn -y\npkg install npm -y\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nnpm install\nyarn install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install yarn -y\npkg install npm -y\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nnpm install\nyarn install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mNPM se ha instalado correctamente..\n\033[0m" 
@@ -234,7 +235,7 @@ if yarn install 2>&1 >/dev/null | grep -E -i -q '(command not found|unable to lo
 error=$(yarn install 2>&1 >/dev/null)
 echo -e "\033[0;31mError: $error\033[0m" 
 echo -e "\033[0;34mNo se pudo instalar Yarn. Verifique su conexión a Internet e inténtelo de nuevo. Si el error continúa, instale de forma manual!!\nIf the error continues, install manually!!\033[0m" 
-echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install yarn\ngit clone https://github.com/elrebelde21/LoliBot-MD\ncd LoliBot-MD\nnpm install\nyarn install\nnpm start\033[0m"
+echo -e "\033[01;33mpkg install git -y\npkg install nodejs -y\npkg install ffmpeg -y\npkg install imagemagick -y\npkg install yarn\ngit clone https://github.com/MaxViajeYT/The-MaxerBot-MD\ncd The-MaxerBot-MD\nnpm install\nyarn install\nnpm start\033[0m"
 exit 1
 else
 echo -e "\033[01;32m\033[01mYarn se ha instalado correctamente.....\n\033[0m" 
@@ -261,11 +262,11 @@ menu() {
 }
 
 menu_ayuda() {
-    #printf "${v1}[${b}++${v1}]${v} GataBot-MD${b}: "
+    #printf "${v1}[${b}++${v1}]${v} MaxerBot-MD${b}: "
 	read opcion
 	case $opcion in
             01|1)
-                am start -a android.intent.action.VIEW https://chat.whatsapp.com/DVhu9S9Zr7cBFFl26N61U3 &>> /dev/null
+                am start -a android.intent.action.VIEW https://chat.whatsapp.com/BrZ4VEGhxD4F7ZAdonNvl2 &>> /dev/null
                 echo -e "${b}[${v1}++${b}]${v} Accediendo al Grupo Oficial\n"
                 
                 ;;
