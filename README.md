@@ -68,12 +68,12 @@
 termux-setup-storage
 ```
 ```bash
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/elrebelde21/LoliBot-MD/master/install.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/MaxViajeYT/The-MaxerBot-MD/master/install.sh | bash
 ```
 -----
 ### 📁 (OPCIÓN 2) 𝐀𝐂𝐓𝐈𝐕𝐀 𝐄𝐋 𝐓𝐄𝐑𝐌𝐔𝐗 - 𝘼𝙍𝘾𝙃𝙄𝙑𝙊𝙎 
 > **Note** Descargué y Descomprime
-### [`LoliBot-MD ~ Archivos`](https://github.com/elrebelde21/LoliBot-MD/archive/refs/heads/master.zip)
+### [`LoliBot-MD ~ Archivos`](https://github.com/MaxViajeYT/The-MaxerBot-MD/archive/refs/heads/master.zip)
 [![blog](https://img.shields.io/badge/Termux-LoliBotMD-FF0000?style=for-the-badge&logo=youtube&logoColor=white)
 ](https://youtu.be/i1xjB4bmYCc?si=JBYC22-3mBkLpB8c)
 ```bash
@@ -83,7 +83,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-cd storage/downloads/LoliBot-MD-master/LoliBot-MD-master 
+cd storage/downloads/The-MaxerBot-MD-master/The-MaxerBot-MD-master 
 ```
 ```bash
 yarn install
@@ -99,14 +99,14 @@ npm start
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd LoliBot-MD
+> cd The-MaxerBot-MD
 > npm start
 ```
 ### `𝐎𝐁𝐓𝐄𝐍𝐄𝐑 𝐎𝐓𝐑𝐎 𝐂𝐎𝐃𝐈𝐆𝐎 𝐐𝐑 
 ```bash
 𝐄𝐒𝐂𝐑𝐈𝐁𝐄 𝐋𝐎𝐒 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐔𝐍𝐎 𝐏𝐎𝐑 𝐔𝐍𝐎:
 > cd 
-> cd LoliBot-MD
+> cd The-MaxerBot-MD
 > rm -rf BotSession
 > npm start
 ```
@@ -134,7 +134,7 @@ pm2 stop index
 pm2 start index
 ``` 
 ----
-### 😼 ACTUALIZAR LOLIBOT
+### 😼 ACTUALIZAR THE-MAXERBOT-MD
 > **Note** Comandos para actualizar LoliBot-MD de forma automática
 ```bash
 grep -q 'bash\|wget' <(dpkg -l) || apt install -y bash wget && wget -O - https://raw.githubusercontent.com/elrebelde21/LoliBot-MD/master/update.sh | bash 
